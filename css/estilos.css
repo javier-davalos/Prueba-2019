@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Tammudu');
+body {
+	background: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+main {
+	margin-top: 52px;
+}
+
+.p-section {
+	padding: 50px 0;
+}
+
+/* colores */
+.green {
+	color: #008000;
+}
+
+/* background blanco*/
+.bg-white {
+	background: #ffffff;
+}
+
+.navbar-default { 
+	background: #ffffff;
+	border: none;
+	border-radius: 0;
+	box-shadow: 0px 2px 5px 0px rgba(91, 91, 91, 0.5);
+}
+
+.title {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+	font-family: 'Baloo Tammudu', cursive;
+}
+
+.description {
+	text-align: center;
+	color: #777777;
+	padding: 0;
+	margin: 0;
+}
+
+/* INICIO ESTILO FOOTER */
+footer {
+	background: #555555;
+	color: #ffffff;
+}
+
+footer a {
+	color: #ffffff;
+}
+
+footer a:hover {
+	color: #f0f0f0;
+	text-decoration: none;
+}
+
+footer .container-fluid {
+	background: #222222;
+}
+
+footer p {
+	margin: 0;
+	padding: 10px 0;
+}
+
+footer ul {
+	padding: 0;
+}
+
+footer ul li {
+	list-style-type: none;
+}
+
+footer h2 {
+	font-size: 24px;
+}
+
+/* ESTILO OWL */
+.owl-theme .owl-nav .owl-prev {
+    position: absolute;
+    left: 0;
+    color: #333;
+    background: transparent;
+    top: 37%;
+    font-size: 100px;
+}
+
+.owl-theme .owl-nav .owl-next {
+    position: absolute;
+    right: 0;
+    color: #333;
+    background: transparent;
+    top: 37%;
+    font-size: 100px;
+}
+
+/* INICIO ESTILOS PARA LA SECCION INFO DE LA PAGINA */
+.section-info {
+	background: #f0f0f0;
+	padding: 50px 0;
+}
+
+.section-info .box-info {
+	border: 1px solid #ccc;
+	padding: 15px;
+	margin-top: 50px;
+}
+
+.section-info .box-info:hover {
+	background: #ffffff;
+	border-color: #999999;
+}
+
+.section-info .box-info .icon {
+	text-align: center;
+	display: block;
+	font-size: 70px;
+}
+
+.section-info .box-info .ion-md-analytics {
+	color: #f27a03;
+}
+
+.section-info .box-info .ion-md-basket {
+	color: #008000;
+}
+
+.section-info .box-info .ion-md-gift {
+	color: #0000ff;
+}
+
+.section-info .box-info .ion-md-stopwatch {
+	color: #800040;
+}
+
+.section-info .box-info h3 {
+	font-family: 'Baloo Tammudu', cursive;
+	margin: 5px 0;
+	font-size: 21px;
+}
+
+.section-info .box-info p {
+	text-align: justify;
+}
+/* FIN ESTILOS PARA LA SECCION INFO DE LA PAGINA */
+
+/* INICIA ESTILOS PARA LA SECCION TEAM DE LA PAGINA */
+.section-team {
+	background: #ffffff;
+	padding: 50px 0;
+}
+
+.section-team .box-team {
+	text-align: center;
+	margin-top: 50px;
+	background: #f0f0f0;
+	border: 1px dashed #999999;
+	padding: 10px;
+}
+
+.section-team .box-team .ion-md-person {
+	font-size: 70px;
+	color: #cccccc;
+}
+
+.section-team .box-team h3 {
+	font-size: 17px;
+	margin: 5px;
+}
+
+.section-team .box-team a {
+ 	text-decoration: none;
+ 	margin-right: 2px;
+ 	margin-bottom: 5px;
+ 	display: block;
+	color: #ffffff;
+	text-align: left;
+	padding: 5px;
+	border-radius: 2px;
+}
+
+.bg-facebook{
+	background: #4867aa !important;
+}
+
+.bg-twitter {
+	background: #2daae2 !important;
+}
+
+.bg-instagram {
+	background: #d02842 !important;
+}
+/* FIN ESTILOS PARA LA SECCION TEAM DE LA PAGINA */
+
+/* INICIO ESTILOS PARA LA SECCION PRESENTACION DE LA PAGINA */
+.section-presentacion {
+	padding: 50px 0;
+	background: url('../images/bg.jpg');
+	background-position: center;
+}
+
+.section-presentacion h3 {
+	margin: 0;
+	color: #ffffff;
+}
+
+.section-presentacion p {
+	text-align: justify;
+	color: #ffffff;
+	font-size: 16px;
+	margin: 0;
+}
+/* FIN ESTILOS PARA LA SECCION PRESENTACION DE LA PAGINA */
+
+/* INICIO ESTILOS PARA LA SECCION CLIENTES DE LA PAGINA */
+.section-clientes {
+	padding: 50px 0;
+}
+
+.section-clientes .box-clientes {
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+	background: #ffffff;
+	box-shadow: 1px 1px 6px 0px rgba(50, 50, 50, 0.15);
+	padding: 15px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.section-clientes .box-clientes img {
+	width: 100%;
+	filter: grayscale(1);
+}
+
+.section-clientes .box-clientes img:hover {
+	filter: none;
+}
+
+/* FIN ESTILOS PARA LA SECCION CLIENTES DE LA PAGINA */
+
+
+/* INICIO CONTACTO */
+.contacto .form-control {
+	margin-bottom: 15px;
+	border-radius: 5px;
+	border-color: #cccccc;
+	height: 50px;
+}
+
+.h-textarea {
+	height: 120px !important;
+}
+
+.btn-primary {
+	border-radius: 20px;
+}
+/* FIN CONTACTO */
+
+/* INICIO NOSOTROS */
+.nosotros img {
+	width: 100%;
+}
+/* FIN NOSOTROS */
+
+
+/* INICIO SERVICIOS */
+.servicios .box-servicios {
+	border: 1px solid #cccccc;
+	background: #ffffff;
+	box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.15);
+	margin-bottom: 10px;
+	margin-top: 10px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.servicios .box-servicios img {
+	width: 100%;
+}
+/* FIN SERVICIOS */
+
+/* INICIO DETALLES */
+.detalles img {
+	width: 100%;
+}
+
+.detalles p {
+	text-align: justify;
+}
+
+.detalles h2 {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #cccccc;
+	margin-bottom: 20px;
+}
+/* FIN DETALLES */
