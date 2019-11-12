@@ -9,6 +9,7 @@
 <body>
 	<!-- INICIO ENCABEZADO -->
 	<?php include 'includes/header.php'; ?>
+	
 	<!-- FIN ENCABEZADO -->
 	
 	<!-- INICIO CONTENIDO -->
